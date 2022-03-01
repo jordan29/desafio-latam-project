@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "statusCode": 302,
+      "redirect": "/singIn"
+    }
+  }
+}
